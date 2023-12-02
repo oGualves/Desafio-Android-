@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url('pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    height: 100%;
+    margin: 0px;
+    background-color:#c5f4da;
+}
+header {
+   background-image: linear-gradient(to bottom, #3ddb84, #456f58 95%);
+   margin: 0px;
+   padding:2px;
+   text-align: center;
+   color:white;
+   text-shadow:2px 2px 2px rgba(0, 0, 0, 0.553);
+    }
+header >  p {
+        width: 500px;
+        margin: auto;
+        margin-top: 16px;
+    }
+nav {
+text-align: left;
+margin-left: 16px ;
+margin-bottom: 4px;
+    }
+nav > a {
+    text-decoration: none;
+    color: #fdfdfd;
+    font-weight: normal;
+    text-shadow:1px 1px 1px #3ddb84cf;
+    margin-left: 8px;
+}
+a:hover{
+    background-color: #0144017a;
+    text-decoration:solid;
+    border-radius: 5px;
+    border: 2px;
+}
+a {
+    text-decoration: none;
+    color:#456f58;
+    font-weight: normal;
+    text-shadow:1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+main{
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    padding: 0px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.53);
+    border-radius: 5px;
+    width: 75%;
+}
+main > p {
+    text-align: justify;
+    margin: 16px;
+}
+h1#normal {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 32px;
+}
+h1 {
+      font-family: idroid, Helvetica, sans-serif;
+      margin: 0px;
+      margin-left: 16px;
+      text-align: left;
+    }
+h2 {
+    font-family: idroid, Helvetica, sans-serif;
+    background:linear-gradient(to right, #c5f4da, white 95%);
+    color: #456f58;
+    margin: 16px;
+    padding-left: 8px;
+    text-align: left;
+}
+main > div {
+    background-color: #456f58;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+section {
+    background-color:#c5f4da;
+    margin:16px ;
+    border-radius: 5px;
+}
+.tabela {
+    list-style: none;
+    padding: 8px;
+    margin: 0;
+}
+.tabela li {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px 0;
+}
+abbr:hover{
+    background-color: #05900549;
+    border-radius: 5px;
+}
+h3 {
+    background-color: #3ddb84;
+    border-radius: 5px;
+    text-align: left;
+    padding: 8px;
+    margin: auto;
+} 
+footer {
+    background-color: #456f58;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin-top: 32px;
+}
+footer > p {
+    margin: 0px;
+}
