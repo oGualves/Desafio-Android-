@@ -22,8 +22,8 @@
 }
 
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0%;
+    padding: 0%;
 }
 
 body{
@@ -86,7 +86,7 @@ nav>a:hover{
 }
 
 main{
-    min-width: 600px;
+    min-width: 0px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 30px;
